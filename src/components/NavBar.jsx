@@ -12,6 +12,8 @@ const Navbar = () => {
                     <Button onClick={() => navigate('/currency')} color="inherit">Currency</Button>
                     <Button onClick={() => navigate('/bmi')} color="inherit">BMI</Button>
                     <Button onClick={() => navigate('/temperature')} color="inherit">Temperature</Button>
+                    <Button onClick={() => navigate('/discount')} color="inherit">Discount</Button>
+                    <Button onClick={() => navigate('/bank')} color="inherit">Interest</Button>
                 </Grid>
             </Grid>
         </Container>
